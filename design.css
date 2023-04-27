@@ -1,0 +1,100 @@
+#Body{
+    background-color: #540303;
+}
+p{
+    font-weight: 500;
+}
+h7 {
+    display: flex;
+    flex-direction: row;
+}
+h7:before,
+h7:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+#MenuBar{
+    background-color: #470002;
+    width: 25%;
+}
+#MenuBar_Title{
+    background-color: #a31418;
+    height: 7%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#Menu{
+    top: 10%;
+    color: gray;
+}
+img{
+    color: aqua;
+}
+.menu_btn{
+    background-color: #470002;
+    padding-left: 50px;
+    text-align: left;
+    font-weight: 500;
+    color: #ffc106;
+    width: 100%;
+    height: 20%;
+    border: none;
+}
+#menu_btn_Application{
+    background-color: #ffc106;
+    color: #470002;
+}
+#HelpDesk{
+    top: 35%;
+    color: gray;
+}
+.help_btn{
+    background-color: #470002;
+    padding-left: 50px;
+    text-align: left;
+    color: white;
+    width: 100%;
+    height: 20%;
+    border: none;
+}
+#help_btn_Available{
+    background-color: #2f0d0b;
+}
+#NavBar{
+    background-color: #890103;
+    color: #ffc106;
+    height: 7%;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#dropBtn_User{
+    background-color: #890103;
+    color: #ffc106;
+    margin-top: 12px;
+    border: none;
+}
+#Form_Container{
+    background-color: white;
+    width: 70%;
+    height: 83%;
+    bottom: 5%;
+    right: 2.5%;
+}
+#Form_Head{
+    background-color: #a81314;
+    height: 2%;
+}
+#Form{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+#row1{
+    position: absolute;
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+}
